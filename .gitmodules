@@ -16,8 +16,8 @@
 	branch = master
 [submodule "omero-server"]
 	path = omero-server
-	url = git://github.com/ome/omero-server
-	branch = master
+	url = git://github.com/jburel/omero-server
+	branch = scheduler
 [submodule "omero-blitz"]
 	path = omero-blitz
 	url = git://github.com/ome/omero-blitz
