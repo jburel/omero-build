@@ -1,11 +1,11 @@
 [submodule "omero-model"]
 	path = omero-model
 	url = ../omero-model
-	branch = master
+	branch = stable
 [submodule "omero-common"]
 	path = omero-common
 	url = ../omero-common
-	branch = master
+	branch = stable
 [submodule "omero-romio"]
 	path = omero-romio
 	url = ../omero-romio
@@ -21,4 +21,4 @@
 [submodule "omero-blitz"]
 	path = omero-blitz
 	url = ../omero-blitz
-	branch = master
+	branch = stable
