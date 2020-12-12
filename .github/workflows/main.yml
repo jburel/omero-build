@@ -13,4 +13,4 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Test
-        run: ./travis.sh
+        run: ./test.sh
