@@ -30,7 +30,7 @@ USER 1000
 COPY --chown=1000:1000 . /src
 WORKDIR /src
 RUN gradle publishToMavenLocal
-RUN ls /home
+RUN ls /home/gradle
 
 FROM ${RUN_IMAGE} as run
 RUN id 1000 || useradd -u 1000 -ms /bin/bash build
