@@ -30,8 +30,9 @@ USER 1000
 COPY --chown=1000:1000 . /src
 WORKDIR /src
 RUN gradle build
+RUN ls /home
 
 FROM ${RUN_IMAGE} as run
 RUN id 1000 || useradd -u 1000 -ms /bin/bash build
-RUN mkdir /home/build/.m2
+
 COPY --chown=1000:1000 --from=build /home/gradle/.m2/ /home/build/.m2
